@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-nav{
+    background-color: #fbf8f3;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+.navbar-brand{
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-left:30px ;
+    justify-content: space-around;
+}
+/*.navbar-nav{
+    margin-right: 400px;
+}*/
+.collapse .navbar-nav .nav-item {
+    font-size: large;
+    padding-bottom: 5px; ;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav2{
+    display: flex;
+    margin-right: 30px;
+}
+.navbar-nav2 .nav-item {
+    list-style-type: none;
+    margin-right: 15px;
+}
+nav ul li a.btn-up {
+    background-color: #4d13d1;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+    padding: 5px 8px;
+    
+}
+.navbar-nav2 .nav-link:hover{
+    background-color:#007bff;
+    color: white;
+}
+nav ul li a.btn-in {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+/****************************************** Nav bar***************************************/
+.section-5{
+    background-color: #fbf8f3;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.container .row .sec1 {
+    padding-top: 90px;
+}
+.container .row .sec1 .img1 {
+    padding-bottom: 5px;
+}
+.container .row .sec2 h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.container .row .sec2 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.container .row .col-12 .btn1 {
+    background-color: #4d13d1;
+    color: white;
+    transition: all 0.3s;
+}
+.container .row .col-12 .btn2 {
+    color: #4d13d1;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.container .row .col-12 .btn1:hover {
+    background-color: #007bff;
+}
+.sec3 .img-fluid {
+    max-width: 100%;
+}
+/***************************************section 1********************************************/
+.container-fluid .container{
+    padding-top: 50px ;
+}
+.container-fluid .container p{
+    font-weight: bold;
+    font-family:  "Inter", sans-serif;
+    color: #4d13d1;
+}
+.container-fluid .container h2{
+    font-weight: bold;
+    font-family:  "Inter", sans-serif;
+}
+.container-fluid .container .row p{
+    font-weight: 18px;
+    font-family:  "Inter", sans-serif;
+    color: #4f4f4f;
+}
+.container-fluid .container .row h4{
+    font-weight: bold;
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+}
+/***************************************section 2********************************************/
+.section-3 .container {
+    background-color: #4d13d1;
+    border-radius: 10px;
+}
+.section-3 .container .row{
+    background-color: #4d13d1;
+}
+.section-3 .container .row h3{
+    color: white;
+    font-weight: bold;
+    font-family:  "Inter", sans-serif;
+    padding: 5px;
+}
+.section-3 .container .row p{
+    color: white;
+    font-family:  "Inter", sans-serif;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.section-3 .container .row .btn{
+        background-color: white;
+        color: #4d13d1;
+        font-weight: bold;
+        transition: all 0.3s;
+        padding: 10px 15px;
+        
+}
+.section-3 .container .row .btn:hover{
+     background-color: #007bff;
+}
+/*************************************************section 3*****************************************/
+.container .item {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 285px;
+    margin-top: 15px ;
+}
+.item h6 {
+    color: #4d13d1;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .item p {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: #4f4f4f;
+}
+.container .item .item-body .btn {
+    color: #4d13d1;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border: 1px solid grey;
+    background-color: white;
+    transition: all 0.5s;
+}
+.container .item .item-body .btn:hover {
+    color: white;
+    background-color: #4d13d1;
+}
+/*************************************************section 4*****************************************/
+.container-fluid .container .row h6{
+    font-weight: bold ;
+}
+/*.container-fluid .container .row p{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: #4f4f4f;
+    text-align: left;
+    padding: 5px;
+}*/
+/*.container-fluid .container .row ul{
+    text-align: center;
+}*/
+.container-fluid .container .row ul li{
+    list-style-type: none;
+    margin: 5px 22px 0px 0px;
+    text-align: center;
+}
+
+.attribution {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .attribution a{
+    text-decoration: none;
+    color: #4d13d1;
+}
+footer .attribution a:hover{
+    text-decoration:underline ;
+}
